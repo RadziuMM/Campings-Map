@@ -1,7 +1,7 @@
 --About--
 
 A small project to share ur campings spots with the community. Created for outdoor lovers. 
-Everything is hosted in Heroku at page: https://campingsmap.herokuapp.com/#/
+Everything is hosted in Heroku at page: https://campingmap.herokuapp.com/#/
 
 --Project specification--
 
