@@ -1,7 +1,7 @@
 <template>
  <div id="about">
     <div>
-      This site was created for survivors, bushcraft enthusiasts
+      This site was created for survivors, bushcraft lovers
       and the whole host of outdoor enthusiasts.
       As one of them, I have always thought that despite many groups associating us,
       there was no place to share our places. Therefore,
