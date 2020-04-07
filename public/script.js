@@ -19,11 +19,11 @@ Http.onreadystatechange = () => {
   cordsnumber = cords.length;
 };
 function initMap() {
-  map = new google.maps.Map(document.getElementById('map'), {
-    center: { lat: 52.237049, lng: 20.017532 },
-    zoom: 6.8,
-  });
   wait(2000).then(() => {
+    map = new google.maps.Map(document.getElementById('map'), {
+      center: { lat: 52.237049, lng: 20.017532 },
+      zoom: 6.8,
+    });
     for (let i = 0; i < cordsnumber; i += 1) {
       const contentString = `${'<div id="content">'
                 + '<div id="siteNotice">'
