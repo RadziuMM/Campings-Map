@@ -68,6 +68,7 @@ form>div{
   float: right;
   margin-right: 1%;
   margin-bottom: 2%;
+  border-color: black;
 }
 textarea {
     max-width: 73% ;
