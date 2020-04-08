@@ -3,10 +3,12 @@
       <form action="https://servermongomarkers.herokuapp.com/add" method="POST">
           <div>If you want to see how to find corridates go to the home tab.</div>
           <input id="input__place" placeholder="Name of ur place"  name="place" required/><br/>
-          <input id="input__lat" placeholder="lat" name="lat" required/>
-          <input id="input__description"
-           placeholder="description" type="text" name="description" required/><br/>
-          <input id="input__lng" placeholder="lng" name="lng" required/><br/>
+          <input id="input__lat" type="number" step="0.000001"
+          placeholder="lat" name="lat" required/>
+          <textarea id="input__description"
+           placeholder="description" name="description" required/><br/>
+          <input id="input__lng" type="number" step="0.000001"
+          placeholder="lng" name="lng" required/><br/>
           <input id="input__email" placeholder="example@gmail.com"
            type="email" name="email" required/><br/>
           <button class="submit" type="submit">SEND</button>
@@ -63,11 +65,15 @@ form>div{
   float: left;
 }
 #input__description{
-  width: 75% ;
-  height: 100px;
   float: right;
   margin-right: 1%;
   margin-bottom: 2%;
+}
+textarea {
+    max-width: 73% ;
+    min-width: 73% ;
+    max-height: 100px;
+    min-height: 100px;
 }
 #input__email{
   width: 98.7%;
