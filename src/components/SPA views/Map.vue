@@ -5,9 +5,13 @@
 </template>
 
 <script>
+/* eslint-disable no-unused-vars */
+/* eslint-disable no-undef */
+/* eslint-disable no-loop-func */
+/* eslint-disable camelcase */
 export default {
   name: 'Map',
-  mounted(){
+  mounted() {
     let map;
     let cords;
     let cordsnumber;
@@ -31,13 +35,11 @@ export default {
         });
         for (let i = 0; i < cordsnumber; i += 1) {
           const contentString = `${'<div id="content">'
-                    + '<div id="siteNotice">'
-                    + '</div>'
-                    + '<h4 id="firstHeading" class="firstHeading">'}${cords[i].place}</h4>`
-                    + `<div id="bodyContent">${
-                      cords[i].description
-                    }</div>`
-                    + '</div>';
+            + '<div id="siteNotice">'
+            + '</div>'
+            + '<h4 id="firstHeading" class="firstHeading">'}${cords[i].place}</h4>`
+            + `<div id="bodyContent">${cords[i].description}</div>`
+            + '</div>';
           const infowindow = new google.maps.InfoWindow({
             content: contentString,
           });

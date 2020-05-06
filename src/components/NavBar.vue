@@ -42,7 +42,7 @@ export default {
       AboutStatus = 1;
       AddStatus = 0;
       ContactStatus = 0;
-      check();
+      this.check();
     },
     addstatus() {
       HomeStatus = 0;
@@ -86,7 +86,7 @@ export default {
       } else {
         document.getElementById('Home').style.display = 'none';
       }
-}
+    },
   },
 };
 </script>
