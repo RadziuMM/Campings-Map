@@ -51,7 +51,7 @@ Feel free to add a pull request.
 
 ## Authors
 
-* **Radosław Mazurczak* - *Everything* 
+* **Radosław Mazurczak** - *Everything* 
 
 ## License
 
