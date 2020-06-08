@@ -1,5 +1,5 @@
 <template>
-<div class="hframe">
+<div class="homeFrame">
   <div id="Home">
     <div>How to find coordinates:</div> <br/>
     1. Go to Google Maps. <br/>
@@ -18,7 +18,7 @@ export default {
 </script>
 
 <style lang="scss">
-.hframe{
+.homeFrame{
   align-items: center;
   justify-content: center;
 }

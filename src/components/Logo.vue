@@ -15,8 +15,6 @@ export default {
   name: 'Logo',
 };
 </script>
-
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="scss">
 @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital@1&display=swap');
 body{

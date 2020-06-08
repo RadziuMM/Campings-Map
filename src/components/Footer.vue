@@ -1,8 +1,8 @@
 <template>
   <div class="footer">
-    <div>&copy;Radosław "Boruta" Mazurczak</div>
-    <a href="mailto: rmazurczak24@gmail.com" ><div class="mail"><i class="fas fa-envelope">
-      </i> rmazurczak24@gmail.com</div></a>
+    <div>&copy;Radosław Mazurczak</div>
+    <a href="mailto: RMazurczak@protonmail.com" ><div class="mail"><i class="fas fa-envelope">
+      </i> RMazurczak@protonmail.com</div></a>
   </div>
 </template>
 

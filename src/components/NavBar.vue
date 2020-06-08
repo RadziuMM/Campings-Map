@@ -1,87 +1,87 @@
 <template>
  <div class="bar">
-    <div @click="homestatus()">Home</div>
-    <div @click="mapstatus()">Map</div>
-    <div @click="aboutstatus()">About</div>
-    <div @click="addstatus()">Add Location</div>
-    <div @click="contactstatus()">Contact</div>
+    <div @click="changeHomeStatus()">Home</div>
+    <div @click="changeMapStatus()">Map</div>
+    <div @click="changeAboutStatus()">About</div>
+    <div @click="changeAddStatus()">Add Location</div>
+    <div @click="changeContactStatus()">Contact</div>
  </div>
 </template>
 
 <script>
-let HomeStatus = 0;
-let MapStatus = 1;
-let AboutStatus = 0;
-let AddStatus = 0;
-let ContactStatus = 0;
+let homeStatus = false;
+let mapStatus = true;
+let aboutStatus = false;
+let addStatus = false;
+let contactStatus = false;
 export default {
   name: 'NavBar',
   data() {
     return {};
   },
   methods: {
-    homestatus() {
-      HomeStatus = 1;
-      MapStatus = 0;
-      AboutStatus = 0;
-      AddStatus = 0;
-      ContactStatus = 0;
+    changeHomeStatus() {
+      homeStatus = true;
+      mapStatus = false;
+      aboutStatus = false;
+      addStatus = false;
+      contactStatus = false;
       this.check();
     },
-    mapstatus() {
-      HomeStatus = 0;
-      MapStatus = 1;
-      AboutStatus = 0;
-      AddStatus = 0;
-      ContactStatus = 0;
+    changeMapStatus() {
+      homeStatus = false;
+      mapStatus = true;
+      aboutStatus = false;
+      addStatus = false;
+      contactStatus = false;
       this.check();
     },
-    aboutstatus() {
-      HomeStatus = 0;
-      MapStatus = 0;
-      AboutStatus = 1;
-      AddStatus = 0;
-      ContactStatus = 0;
+    changeAboutStatus() {
+      homeStatus = false;
+      mapStatus = false;
+      aboutStatus = true;
+      addStatus = false;
+      contactStatus = false;
       this.check();
     },
-    addstatus() {
-      HomeStatus = 0;
-      MapStatus = 0;
-      AboutStatus = 0;
-      AddStatus = 1;
-      ContactStatus = 0;
+    changeAddStatus() {
+      homeStatus = false;
+      mapStatus = false;
+      aboutStatus = false;
+      addStatus = true;
+      contactStatus = false;
       this.check();
     },
-    contactstatus() {
-      HomeStatus = 0;
-      MapStatus = 0;
-      AboutStatus = 0;
-      AddStatus = 0;
-      ContactStatus = 1;
+    changeContactStatus() {
+      homeStatus = false;
+      mapStatus = false;
+      aboutStatus = false;
+      addStatus = false;
+      contactStatus = true;
       this.check();
     },
     check() {
-      if (AboutStatus === 1) {
+      if (aboutStatus === true) {
         document.getElementById('about').style.display = 'flex';
       } else {
         document.getElementById('about').style.display = 'none';
       }
-      if (MapStatus === 1) {
+      if (mapStatus === true) {
         document.getElementById('map').style.display = 'block';
       } else {
         document.getElementById('map').style.display = 'none';
       }
-      if (AddStatus === 1) {
+      if (addStatus === true) {
         document.getElementById('add').style.display = 'flex';
       } else {
         document.getElementById('add').style.display = 'none';
       }
-      if (ContactStatus === 1) {
+      if (contactStatus === true) {
         document.getElementById('contact').style.display = 'block';
       } else {
         document.getElementById('contact').style.display = 'none';
       }
-      if (HomeStatus === 1) {
+      if (homeStatus === true) {
         document.getElementById('Home').style.display = 'inline-block';
       } else {
         document.getElementById('Home').style.display = 'none';
@@ -94,7 +94,7 @@ export default {
 <style lang="scss">
 
 body{
-    @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@5falsefalse&display=swap');
     font-family: 'Roboto Mono', monospace;
 }
 .bar{
@@ -104,7 +104,7 @@ body{
 }
 .bar>div{
     float: left;
-    margin: 2vw 1vw 1vw 1vw;
+    margin: 2vw 0 0 1vw;
     font-size: 4vw;
     word-spacing: -5px;
     text-transform: uppercase;

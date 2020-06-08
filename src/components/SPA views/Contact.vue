@@ -4,7 +4,7 @@
     <br/>
     <a href= 'https://github.com/RadziuMM' target="_blank"><i class="fab fa-github"></i>github</a>
     <br/>
-    <a href="mailto: rmazurczak24@gmail.com" target="_blank"><i class="fas fa-envelope">
+    <a href="mailto: RMazurczak@protonmail.com" target="_blank"><i class="fas fa-envelope">
     </i>email</a>
   </div>
 </template>
