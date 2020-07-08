@@ -1,6 +1,6 @@
 # Campings-Map
 
-A small project to share ur campings spots with the community. Created for outdoor lovers. Everything is hosted in Heroku at page: https://campingmap.herokuapp.com/#/
+A small project to share ur campings spots with the community. Created for outdoor lovers. <span style="text-decoration: line-through solid black">Everything is hosted in Heroku at page: https://campingmap.herokuapp.com/#/</span>.No longer hosted.
 
 ## Getting Started
 
