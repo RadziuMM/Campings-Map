@@ -32,7 +32,6 @@ export default {
       }
     };
 
-
     wait(1000).then(() => {
       map = new google.maps.Map(document.getElementById('map'),
         {
