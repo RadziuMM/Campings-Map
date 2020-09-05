@@ -1,6 +1,6 @@
 # Campings-Map
 
-A small project to share ur campings spots with the community. Created for outdoor lovers. ~~Everything is hosted in Heroku at page: https://campingmap.herokuapp.com/#/.~~ No longer hosted.
+A small project to share ur campings spots with the community. Created for outdoor lovers.
 
 ## Getting Started
 
@@ -17,8 +17,13 @@ To run this site locally you need node.js, npm or yarn, and vue.js.
 
 ### Installing
 
-Install all dependencies manually from package.json expect express.
-Express is added only for Heroku server and installing it locally can crash the Vue server.
+```
+yarn add
+```
+or
+```
+npm i
+```
 
 ## Deployment
 
