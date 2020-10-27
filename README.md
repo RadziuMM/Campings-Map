@@ -18,7 +18,7 @@ To run this site locally you need node.js, npm or yarn, and vue.js.
 ### Installing
 
 ```
-yarn add
+yarn
 ```
 or
 ```

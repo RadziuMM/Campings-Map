@@ -1,6 +1,6 @@
 <template>
     <div id="add">
-      <form action="https://servermongomarkers.herokuapp.com/add" method="POST">
+      <form action="https://campingmap.herokuapp.com/add" method="POST">
           <div>If you want to see how to find corridates go to the home tab.</div>
           <input id="input__place" placeholder="Name of ur place"  name="place" required/><br/>
           <input id="input__lat" type="number" step="0.000001"

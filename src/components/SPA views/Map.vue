@@ -18,7 +18,7 @@ export default {
   name: 'Map',
   created() {
     const Http = new XMLHttpRequest();
-    const url = 'https://servermongomarkers.herokuapp.com/get';
+    const url = 'https://campingmap.herokuapp.com/get';
     Http.open('GET', url);
     Http.send();
     Http.onreadystatechange = () => {
